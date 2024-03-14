@@ -678,6 +678,29 @@ header ul .menumob{
    }
 }
 
+
+@media screen and (max-width:400px){
+    .foto2 img{
+       margin: auto;
+       width: 80%;
+       height: auto;
+       }
+       .texto2 p{
+        max-width: 300px;
+    } 
+}
+
+@media screen and (max-width:350px){
+    .foto2 img{
+       margin: auto;
+       width: 80%;
+       height: auto;
+       }
+       .texto2 p{
+        max-width: 200px;
+    } 
+}
+
 .projetos{
     background-color: #0f0f0f;
 }
