@@ -531,7 +531,7 @@ header ul .menumob{
 
 @media screen and (max-width:350px){
     .conteudo .content img{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
     .conteudo .content p{
@@ -569,15 +569,25 @@ header ul .menumob{
 }
 
 .conteudo2 img{
-    width: 400px;
+    width: 500px;
     height: auto;
     margin-left: 2rem;
 }
 
-.texto2 label, h1{
+.texto2 h1{
     color: #fff;
+    font-size: 2.5rem;
 
 }
+
+.texto2 p{
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;   
+    font-size: 1.1rem;
+
+}
+
 
 .hr2{
     background-color: #fff;
@@ -591,10 +601,75 @@ header ul .menumob{
         text-align: center;
     }
     .conteudo2 img{
-        margin-top: 2rem;
+        margin: auto;
+        
+    }
+   
+    .foto2 img{
+        margin: auto;
+        width: 400px;
+        height: auto;
     }
 
-    .texto2 label{
+    .texto2 p{
         max-width: 400px;
+        color: #ccc;
+        font-size: 1.1rem;
+        text-align: left;
+        text-indent: 10px;
+        margin: auto;
+        margin-bottom: 1rem;
     } 
+
+    .texto2 h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:450px){
+    .conteudo2{
+        height: 32rem;
+    }
+    
+    .foto2 img{
+        margin: auto;
+        width: 350px;
+        height: auto;
+        }
+
+    .texto2 p{
+        max-width: 340px;
+        color: #ccc;
+        font-size: 0.85rem;
+        text-align: left;
+        text-indent: 10px;
+        margin: auto;
+        margin-bottom: 1rem;
+    } 
+
+    .texto2 h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:300px){
+    .foto2 img{
+       margin: auto;
+       width: 80%;
+       height: auto;
+       }
+
+   .texto2 p{
+       max-width: 200px;
+       color: #ccc;
+       font-size: 0.85rem;
+       text-align: left;
+       text-indent: 10px;
+       margin: auto;
+       margin-bottom: 1rem;
+   } 
+
+   .texto2 h1{
+       font-size: 1.5rem;
+   }
 }
